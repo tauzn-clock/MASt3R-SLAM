@@ -5,6 +5,7 @@ curope = Path(__file__).parent.absolute() / "dust3r" / "croco" / "models" / "cur
 asmk = Path(__file__).parent.absolute() / "asmk"
 
 setup(
+    name = "mast3r",
     install_requires=[
         "scikit-learn",
         "roma",
