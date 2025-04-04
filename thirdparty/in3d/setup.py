@@ -1,7 +1,7 @@
 from pathlib import Path
 from setuptools import setup
 
-thirdparty_path = Path(__file__).parent.resolve() / "thirdparty"
+thirdparty_path = Path(__file__).parent.absolute() / "thirdparty"
 pyimgui_path = (thirdparty_path / "pyimgui").as_uri()
 
 setup(
