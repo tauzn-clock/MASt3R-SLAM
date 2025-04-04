@@ -47,6 +47,7 @@ else:
     print("CUDA not found, cannot compile backend!")
 
 setup(
+    name="mast3r_slam",
     ext_modules=ext_modules,
     cmdclass={"build_ext": BuildExtension},
 )
