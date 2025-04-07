@@ -1,5 +1,5 @@
 FROM nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
-ENV TORCH_CUDA_ARCH_LIST="7.5,8.0"
+ENV TORCH_CUDA_ARCH_LIST="7.5,8.0+PTX"
 
 RUN apt-get update && apt-get install -y \
     git \
